@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://www.jianshu.com/u/ddf4eb832e80"
 
   s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
   s.swift_version = '4.2'
 
   s.source       = { :git => "https://github.com/SwiftPartner/RealmSwiftHelper.git", :tag => "#{s.version}" }
