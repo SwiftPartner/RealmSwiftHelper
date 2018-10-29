@@ -1,0 +1,15 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'RealmSwiftHelperExample' do
+  use_frameworks!
+
+  # Pods for RealmSwiftHelperExample
+ pod 'RealmSwiftHelper', :path => '../'
+
+  target 'RealmSwiftHelperExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
