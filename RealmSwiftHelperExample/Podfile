@@ -1,8 +1,9 @@
 platform :ios, '9.0'
 inhibit_all_warnings!
+use_modular_headers!
 
 target 'RealmSwiftHelperExample' do
-  use_frameworks!
+#  use_frameworks!
 
   # Pods for RealmSwiftHelperExample
  pod 'RealmSwiftHelper', :path => '../'

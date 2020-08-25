@@ -1,22 +1,22 @@
 PODS:
-  - Realm (3.11.1):
-    - Realm/Headers (= 3.11.1)
-  - Realm/Headers (3.11.1)
-  - RealmSwift (3.11.1):
-    - Realm (= 3.11.1)
-  - RealmSwiftHelper (0.0.1):
-    - RealmSwift
-    - RxCocoa
-    - RxSwift
-  - RxCocoa (4.3.1):
+  - Realm (3.14.2):
+    - Realm/Headers (= 3.14.2)
+  - Realm/Headers (3.14.2)
+  - RealmSwift (3.14.2):
+    - Realm (= 3.14.2)
+  - RealmSwiftHelper (0.0.2):
+    - RealmSwift (~> 3.14.1)
+    - RxCocoa (~> 4.5.0)
     - RxSwift (~> 4.0)
-  - RxSwift (4.3.1)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
 
 DEPENDENCIES:
   - RealmSwiftHelper (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Realm
     - RealmSwift
     - RxCocoa
@@ -27,12 +27,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
-  RealmSwift: c9580133e73ef40ed340401af2dbc9a5790dfea7
-  RealmSwiftHelper: 3d7e99ff120fa5d83e4771b97c3bb1b14c7ddc29
-  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
-  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  Realm: 179c6706e3a49dbfe112e572fd3c03d3169bea35
+  RealmSwift: 1797f272fb51c555b764fada32e82159a2c65247
+  RealmSwiftHelper: 996b9099ffb0a145cc2efc3ca767e52856896892
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
 
-PODFILE CHECKSUM: 197858dfabe48f4acd26e4f2be00ae1c60e35e3f
+PODFILE CHECKSUM: 2a677769b5d52c67b1bae6896b3ddb2b42b54eec
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3
